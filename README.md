@@ -17,7 +17,40 @@ These instructions will help you get a copy of the project up and running on you
 
 ```git clone https://github.com/rc-iv/sheesh.git```
 
-
 2. Change into the project directory:
 
-    ```cd sheesh```
+```cd sheesh```
+
+3. Install the project dependencies:
+
+```npm install```
+
+4. Start the development server:
+
+```npm start```
+
+
+The site should now be running on `http://localhost:3000`.
+
+## Deployment
+
+To create an optimized production build of the site, run:
+
+```npm run build```
+
+
+This will generate a `build` folder containing the production-ready site files.
+
+## Built With
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+
