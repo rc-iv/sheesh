@@ -46,10 +46,6 @@ This will generate a `build` folder containing the production-ready site files.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
