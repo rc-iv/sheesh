@@ -5,7 +5,7 @@ const LinksSection = () => {
     <div className="container mx-auto px-4 mt-6 mb-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <a
-          href="https://app.uniswap.org/"
+          href="https://app.uniswap.org/#/swap?outputCurrency=0x014550A34149231b8432B8dD210fADd81b1d2668"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-gray-300 rounded-lg p-4 text-center hover:border-green-400 hover:bg-green-400 text-white transition-colors duration-200"
