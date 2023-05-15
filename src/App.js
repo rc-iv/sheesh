@@ -6,6 +6,7 @@ import MemeLibrary from "./components/MemeLibrary";
 import ScrollingImages from "./components/ScrollingImages";
 import SheeshInfo from "./components/SheeshInfo";
 import Footer from "./components/Footer";
+import BuyWidget from "./components/BuyWidget";
 function App() {
   return (
     <div

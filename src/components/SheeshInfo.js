@@ -1,10 +1,11 @@
 import React from 'react';
 import sheeshinfo from '../assets/images/sheeshinfo.png';
+import BuyWidget from "./BuyWidget";
 
 const SheeshInfo = () => {
   return (
     <div className="container mx-auto px-4 mt-12 text-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-center">
           <h2 className="text-7xl font-bold mb-4">WTF IS SHEESH?</h2>
           <img src={sheeshinfo} alt="Sheesh Info" />
@@ -26,6 +27,9 @@ const SheeshInfo = () => {
             Our Veins, Sheesh Is Here To Stay. Join Us, Or Regret From The
             Sidelines In Disbelief.
           </p>
+        </div>
+        <div className="w-96 border-0 overflow-hidden rounded-xl">
+            <BuyWidget />
         </div>
       </div>
     </div>
