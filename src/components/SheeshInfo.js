@@ -28,7 +28,7 @@ const SheeshInfo = () => {
             Sidelines In Disbelief.
           </p>
         </div>
-        <div className="w-96 border-0 overflow-hidden rounded-xl">
+        <div className="w-128 border-0 overflow-hidden rounded-xl">
             <BuyWidget />
         </div>
       </div>
